@@ -1,3 +1,20 @@
 body {
-    background-color: purple;
+    background-color: mintcream;
+}
+
+#content-div {
+    display: grid;
+    grid-template: 10vh 1fr 1fr / 10vw 1fr ;
+
+    #app-name {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    #nav-ul {
+        grid-area: 2 / 1 / 4 / 2;
+    }
+
+    #todo-div {
+        grid-area: 2 / 2 / 4 / 3;
+    }
 }
