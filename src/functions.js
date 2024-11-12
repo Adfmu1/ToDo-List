@@ -1,7 +1,7 @@
 
 
-export function getMainDiv() {
-    return document.querySelector("#content-div");
+export function getAppDiv() {
+    return document.querySelector("#todo-div");
 }
 
 export function clearDiv(div) {
